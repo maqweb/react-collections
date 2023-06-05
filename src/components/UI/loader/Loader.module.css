@@ -1,0 +1,22 @@
+.loader {
+    text-align: center;
+}
+
+.loadLogo {
+    height: 10vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .loadLogo {
+        animation: loadLogo-spin infinite 3s linear;
+    }
+}
+
+@keyframes loadLogo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

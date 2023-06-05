@@ -1,0 +1,68 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.container {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.post {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  border: 1px solid lightgray;
+  box-shadow: 3px 5px 8px #000;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+.post-list h3 {
+  text-align: center;
+  color: lightgray;
+  margin-top: 44px;
+  margin-bottom: 15px;
+}
+
+.pagination {
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 5px;
+  outline: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pageCurrent {
+  background: #fff;
+  color: black;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
+
+.navbar__links a {
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.login {
+  width: 400px;
+  margin: 0 auto;
+}
